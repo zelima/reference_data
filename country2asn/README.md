@@ -6,7 +6,7 @@ We use the stat.ripe.net API to periodically fetch country to ASN mappings.
 
 # DB structure
 
-See the file db.sql
+See the file ``db.sql``
 
 Basically, we have one single table called ``country_asn`` which holds an ISO 2 letter country code and an ASN. Historic data is kept via a timestamp ("ts") field.
 
