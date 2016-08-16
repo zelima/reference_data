@@ -1,0 +1,4 @@
+#
+# m h  dom mon dow   command
+
+05  10  *  *   *     ( cd /home/aaron/work/cybergreen/reference_data/country2asn; ./fetch.sh )
