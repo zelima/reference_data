@@ -13,6 +13,6 @@ for CC in $(cat ${COUNTRIES}); do
 done
 
 
-psql iphistory -c "copy country_asn from STDIN with CSV delimiter ','" < import.csv
+psql --quiet iphistory -c "copy country_asn from STDIN with CSV delimiter ','" < import.csv
 
 
