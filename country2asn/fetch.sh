@@ -13,6 +13,9 @@ for CC in $(cat ${COUNTRIES}); do
 done
 
 
+egrep -v "[A-Z]{2},," import.csv > i
+mv i import.csv
+
 psql --quiet iphistory -c "copy country_asn from STDIN with CSV delimiter ','" < import.csv
 
 
