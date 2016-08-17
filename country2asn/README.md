@@ -1,4 +1,4 @@
-# Counry2ASN
+# Country2ASN
 
 We use the wonderful [stat.ripe.net API](https://stat.ripe.net/docs/data_api) to periodically fetch country to ASN mappings in order to keep an offline version of it for reference data purposes (quick offline lookups, etc).
 
